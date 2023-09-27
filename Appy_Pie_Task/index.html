@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>appypie</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+</head>
+
+<body>
+    <header>
+
+        <div>
+            <div class="logo">
+                <img src="images/appypie-with-logo.png" alt="Company Icon">
+            </div>
+
+
+            <!-- Navigation menu -->
+            <div class="header-menu" id="myTopnam">
+                <a href="#">WHY CONNECT</a>
+                <a href="#" class="active">APP DIRECTORY</a>
+                <a href="#">APP INTEGRATIONS</a>
+                <a href="#">PRICING</a>
+                <a href="#">START FREE</a>
+                <a href="#" style="border: 2px solid white;">LOGIN</a>
+                <a href="javascript:void(0);" class="icon" onclick="navMenuResponsive()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+
+
+        <center>
+            <h1>Define Workflow with seemless integration</h1>
+            <p>Integeration at your fingertips. Initiate your workflows with seamless integrations and automate your business.</p>
+        </center>
+
+    </header>
+
+    <main>
+
+        <section class="main-section">
+            <section class="section1">
+
+                <div>
+                    <div class="search">
+                        <a><img src="images/search-icon.png" alt="Company Icon"></a>
+                        <a><input type="text" placeholder="Search 100+ Apps"></a>
+                    </div>
+                    <div class="sort" style="height: 44px;">
+
+                        <label class="drop-label" for="dropdown">Sort By:</label>
+                        <select id="sort">
+                            <option value="popular" selected>Popular</option>
+                            <option value="used">Most Used By Your</option>
+                            <option value="recent">Most Recent</option>
+                            <option value="alpha">Alphabetically</option>
+                            <option value="none">No Sorting</option>
+                        </select>
+
+                    </div>
+                </div>
+                
+                <br>
+                <br>
+                <br>
+                <div class="apps">
+                    <div class="innerapps" data-app="Gmail">
+                        <img class="appImg" src="images/gmail.png" alt="Icon can't displayed">
+                        <span class="appName">Gmail</span>
+                    </div>
+                    <div class="innerapps" data-app="Salesforce">
+                        <img class="appImg" src="images/salesforce.png" alt="Icon can't displayed">
+                        <span class="appName">Salesforce</span>
+                    </div>
+                    <div class="innerapps" data-app="Slack">
+                        <img class="appImg" src="images/slack.png" alt="Icon can't displayed">
+                        <span class="appName">Slack</span>
+                    </div>
+                    <div class="innerapps" data-app="Dropbox">
+                        <img class="appImg" src="images/dropbox.png" alt="Icon can't displayed">
+                        <span class="appName">Dropbox</span>
+                    </div>
+                    <div class="innerapps" data-app="Google Drive">
+                        <img class="appImg" src="images/google-drive.png" alt="Icon can't displayed">
+                        <span class="appName">Google Drive</span>
+                    </div>
+                    <div class="innerapps" data-app="Facebook">
+                        <img class="appImg" src="images/facebook.png" alt="Icon can't displayed">
+                        <span class="appName">Facebook</span>
+                    </div>
+                    <div class="innerapps" data-app="Gmail">
+                        <img class="appImg" src="images/gmail.png" alt="Icon can't displayed">
+                        <span class="appName">Gmail</span>
+                    </div>
+                    <div class="innerapps" data-app="Slack">
+                        <img class="appImg" src="images/slack.png" alt="Icon can't displayed">
+                        <span class="appName">Slack</span>
+                    </div>
+                    <div class="innerapps" data-app="Wnderlist">
+                        <img class="appImg" src="images/red-carpet.png" alt="Icon can't displayed">
+                        <span class="appName">Wnderlist</span>
+                    </div>
+                    <div class="innerapps" data-app="Twilio">
+                        <img class="appImg" src="images/power-on.png" alt="Icon can't displayed">
+                        <span class="appName">Twilio</span>
+                    </div>
+                    <div class="innerapps" data-app="Twitter">
+                        <img class="appImg" src="images/twitter.png" alt="Icon can't displayed">
+                        <span class="appName">Twitter</span>
+                    </div>
+                    <div class="innerapps" data-app="AgileCRM">
+                        <img class="appImg" src="images/cloud.png" alt="Icon can't displayed">
+                        <span class="appName">AgileCRM</span>
+                    </div>
+                    <div class="innerapps" data-app="Office360">
+                        <img class="appImg" src="images/office.png" alt="Icon can't displayed">
+                        <span class="appName">Office365</span>
+                    </div>
+                    <div class="innerapps" data-app="Google Sheets">
+                        <img class="appImg" src="images/sheets.png" alt="Icon can't displayed">
+                        <span class="appName">Google Sheets</span>
+                    </div>
+                    <div class="innerapps" data-app="Wnderlist">
+                        <img class="appImg" src="images/red-carpet.png" alt="Icon can't displayed">
+                        <span class="appName">Wnderlist</span>
+                    </div>
+                    <div class="innerapps" data-app="Twitter">
+                        <img class="appImg" src="images/twitter.png" alt="Icon can't displayed">
+                        <span class="appName">Twitter</span>
+                    </div>
+                    <div class="innerapps" data-app="LinkedIn">
+                        <img class="appImg" src="images/linkedin.png" alt="Icon can't displayed">
+                        <span class="appName">LinkedIn</span>
+                    </div>
+                    <div class="innerapps" data-app="Paypal">
+                        <img class="appImg" src="images/paypal.png" alt="Icon can't displayed">
+                        <span class="appName">Paypal</span>
+                    </div>
+                    <div class="innerapps" data-app="Todolist">
+                        <img class="appImg" src="images/clipboard.png" alt="Icon can't displayed">
+                        <span class="appName">Todolist</span>
+                    </div>
+                    <div class="innerapps" data-app="Trello">
+                        <img class="appImg" src="images/trello.png" alt="Icon can't displayed">
+                        <span class="appName">Trello</span>
+                    </div>
+                    <div class="innerapps" data-app="Zoho Invoice">
+                        <img class="appImg" src="images/zoho.webp" alt="Icon can't displayed">
+                        <span class="appName">Zoho Invoice</span>
+                    </div>
+                    <div class="innerapps" data-app="Harvest">
+                        <img class="appImg" src="images/h.png" alt="Icon can't displayed">
+                        <span class="appName">Harvest</span>
+                    </div>
+                    <div class="innerapps" data-app="LinkedIn">
+                        <img class="appImg" src="images/linkedin.png" alt="Icon can't displayed">
+                        <span class="appName">LinkedIn</span>
+                    </div>
+                    <div class="innerapps" data-app=""Todolist>
+                        <img class="appImg" src="images/clipboard.png" alt="Icon can't displayed">
+                        <span class="appName">Todolist</span>
+                    </div>
+
+
+                </div>
+
+
+            </section>
+
+            <section class="section2">
+                <div class="selected-apps clearfix">
+
+                </div>
+                <button id="clear-all-button">Clear All</button>
+            </section>
+
+            <section class="section3">
+                <p>Perfect Matches For Your Selected Apps</p>
+            </section>
+
+
+            
+            <section class="section4">
+
+                <div class="row">
+                    <div class="column">
+                        <div class="card" id="box1">
+                            <img src="images/gmail.png" alt="Icon can't displayed">
+                            <p>+</p>
+                            <img src="images/slack.png" alt="Icon can't displayed">
+                        </div>
+                        <div class="card" id="box2">
+                            <p>Get Slack notifications for new Salesforce opportunities</p>
+                        </div>
+                        <div class="card" id="box3">
+                            <center><button class="box-buttons" >CONNECT THE FLOW</button></center>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card" id="box4">
+                            <img src="images/gmail.png" alt="Icon can't displayed">
+                            <p>+</p>
+                            <img src="images/facebook.png" alt="Icon can't displayed">
+                        </div>
+                        <div class="card" id="box5">
+                            <p>Get Slack notifications for new Salesforce opportunities</p>
+                        </div>
+                        <div class="card" id="box6">
+                            <center><button class="box-buttons" >CONNECT THE FLOW</button></center>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card" id="box7">
+                            <img src="images/gmail.png" alt="Icon can't displayed">
+                            <p>+</p>
+                            <img src="images/salesforce.png" alt="Icon can't displayed">
+                        </div>
+                        <div class="card" id="box8">
+                            <p>Get Slack notifications for new Salesforce opportunities</p>
+                        </div>
+                        <div class="card" id="box9">
+                            <center><button class="box-buttons" >CONNECT THE FLOW</button></center>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card" id="box10">
+                            <img src="images/gmail.png" alt="Icon can't displayed">
+                            <p>+</p>
+                            <img src="images/twitter.png" alt="Icon can't displayed">
+                        </div>
+                        <div class="card" id="box11">
+                            <p>Get Slack notifications for new Salesforce opportunities</p>
+                        </div>
+                        <div class="card" id="box12">
+                            <center><button class="box-buttons" >CONNECT THE FLOW</button></center>
+                        </div>
+                    </div>
+                </div>
+
+
+           
+            </section>
+            <section class="section5">
+                <a><img src="" alt=""></a>
+                <a>1 - 10 (of 100)</a>
+                <a><img src="" alt=""></a>
+            </section>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="logo2">
+            <img src="images/appypie-with-logo.png" alt="Icon can't displayed">
+        </div>
+
+        <hr style="color: rgb(176, 174, 174);">
+        <div class="menus">
+            <div class="footer-menu">
+                <a href="#">ABOUT US |</a>
+                <a href="#">CONTACT US |</a>
+                <a href="#">PRIVACY POLICY |</a>
+                <a href="#">TERMS OF USE</a>
+            </div>
+            <div class="declaration">
+                <a>@ 2023, Appy Pie. All Right Reserved. Technology protected by US Patent No. PCT/US21/36182</a>
+            </div>
+        </div>
+        <div class="icons">
+            <a><img src="images/facebook-grey.png"></a>
+            <a><img src="images/twitter-grey.png"></a>
+            <a><img src="images/linkedin-grey.png"></a>
+            <a><img src="images/pinterest-grey.png"></a>
+            <a><img src="images/youtube-grey.png"></a>
+            <a><img src="images/instagram-grey.png"></a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
