@@ -26,7 +26,8 @@ header > div {
 
 header > center {
   color: white;
-  font-family: cursive;
+  font-family: sans-serif;
+  font-weight: 600;
 }
 
 .logo {
@@ -133,6 +134,10 @@ main {
   padding: 10px;
 }
 
+.searchParent {
+  display: block;
+}
+
 .search {
   background-color: #ececeb;
   width: 75%;
@@ -214,7 +219,6 @@ main {
   width: 30px;
   height: 30px;
 }
-
 
 @media screen and (max-width: 760px) {
   #apps-line1 {
@@ -298,7 +302,7 @@ main {
 .section3 {
   font-family: Avenir-heavy;
   font-size: 20px;
-  color:#000000;
+  color: #000000;
   letter-spacing: 0px;
   font-weight: bold;
   padding: 10px;
@@ -333,7 +337,6 @@ main {
 .row {
   margin-left: 6rem;
 }
-
 
 .row:after {
   content: "";
@@ -380,18 +383,20 @@ main {
   height: 80px;
 }
 
-#box2, #box5, #box8, #box11 {
+#box2,
+#box5,
+#box8,
+#box11 {
   font-family: Avenir-Heavy;
 }
 .box-buttons {
-  font-family:Avenir-Heavy;
+  font-family: Avenir-Heavy;
 }
 
 .getSl {
   margin-top: 0%;
   margin-left: 20px;
 }
-
 
 .box-buttons {
   background-color: inherit;
@@ -425,11 +430,12 @@ main {
 }
 
 /* Footer */
-footer{
+footer {
   font-family: ArialMT;
-
 }
-footer .logo2, .menu, .icons {
+footer .logo2,
+.menu,
+.icons {
   display: flex;
   text-align: center;
   opacity: 1;
@@ -440,7 +446,7 @@ footer .logo2, .menu, .icons {
 }
 
 .logo2 img {
-  width:100px;
+  width: 100px;
 }
 
 .menu {
@@ -449,7 +455,7 @@ footer .logo2, .menu, .icons {
 .footer-menu {
   margin-left: 35%;
 }
-.footer-menu a{
+.footer-menu a {
   font-size: 12px;
   font-weight: bold;
   text-decoration: none;
@@ -465,7 +471,7 @@ footer .logo2, .menu, .icons {
   margin-left: 35%;
 }
 
-footer .icons  {
+footer .icons {
   float: right;
   margin-right: 6em;
 }
@@ -484,7 +490,6 @@ footer .icons  {
   height: 60px;
   width: 60px;
 }
-
 
 /* Responsive Styles for Smaller Screens */
 @media screen and (max-width: 768px) {
@@ -507,12 +512,6 @@ footer .icons  {
   .header-menu a {
     padding: 5px 0;
   }
-
-
-
-
-
- 
 
   /* Section 2 */
   .selected-apps {
@@ -549,8 +548,6 @@ footer .icons  {
     font-size: 14px;
   }
 
-  
-
   /* Main Section */
   .main-section {
     width: fit-content;
@@ -559,7 +556,6 @@ footer .icons  {
     padding: 10px;
   }
 
-  
   .selected-apps div {
     font-size: 12px;
   }
@@ -574,33 +570,38 @@ footer .icons  {
   }
 }
 
-/* *************************  New  ********************* */
-
 .apps {
   margin: 40px 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
   gap: 20px;
 }
-.innerapps .card{
+.innerapps {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: sans-serif;
 }
-#box1, #box2, #box3 {
-  background-color: #DE593C;
+#box1,
+#box2,
+#box3 {
+  background-color: #de593c;
 }
-#box4, #box5, #box6{
-  background-color: #3D599D;
+#box4,
+#box5,
+#box6 {
+  background-color: #3d599d;
 }
-#box7, #box8, #box9{
-  background-color: #2FB88F;
+#box7,
+#box8,
+#box9 {
+  background-color: #2fb88f;
 }
-#box10, #box11, #box12{
-  background-color: #2F94C5;
+#box10,
+#box11,
+#box12 {
+  background-color: #2f94c5;
 }
-
 
 .appImg {
   padding: 9px;
@@ -616,12 +617,10 @@ footer .icons  {
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
-.card p{
+.card p {
   font-size: 20px;
   color: white;
 }
-
-
 
 .appName {
   color: rgb(106, 106, 106);
