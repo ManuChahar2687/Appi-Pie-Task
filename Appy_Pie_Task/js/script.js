@@ -12,7 +12,7 @@ function addAppName(appName) {
   
   const appIcon = document.querySelector(`[data-app="${appName}"]`);
 
-  if (appIcon) 
+  if (appIcon) {
       appIcon.classList.toggle('selected');
   }
 
@@ -39,6 +39,8 @@ function addAppName(appName) {
     selectedAppsContainer.appendChild(selectedAppElement);
 
     selectedApps.push(appName);
+
+  }
 
 
 appIcons.forEach(appIcon => {
@@ -80,13 +82,6 @@ function clearAllSelection() {
 
 
 
-
-
-
-
-
-
-
 //responsive
 function namMenuResponsive() {
   console.log("responsiveeeeeeeeeee")
@@ -99,24 +94,23 @@ function namMenuResponsive() {
 }
 
 
- // Function to check and toggle tables based on screen size
  function toggleTables() {
   var desktopTable = document.getElementById("apps-line1");
   var mobileTable = document.getElementById("apps-line1-mobile-section");
   
   if (window.innerWidth <= 768) {
-     // Hide desktop table and show mobile table
+    
      desktopTable.style.display = "none";
-     mobileTable.style.display = "table"; // Show the mobile table as a table element
+     mobileTable.style.display = "table"; 
   } else {
-     // Show desktop table and hide mobile table
-     desktopTable.style.display = "table"; // Show the desktop table as a table element
+    
+     desktopTable.style.display = "table"; 
      mobileTable.style.display = "none";
   }
 }
 
-// Initial check on page load
+
 toggleTables();
 
-// Listen for window resize events to update table display
+
 window.addEventListener("resize", toggleTables);
